@@ -18,7 +18,7 @@ public class App
         Terminal terminal = new DefaultTerminalFactory().createTerminal();
         Screen screen = new TerminalScreen(terminal);
 
-        String s = "Hello World!";
+        String s = "Hello Ewen";
         TextGraphics tGraphics = screen.newTextGraphics();
 
         screen.startScreen();
